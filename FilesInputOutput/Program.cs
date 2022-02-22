@@ -13,3 +13,17 @@ Creation: 21.02.2022 11:42:20
 Attributes: Directory
 Root: D:\
 */
+Console.WriteLine();
+MyDriveInfo drive = new();
+drive.ShowInfo();
+/*
+Name: C:\       DriveType: Fixed
+Free space: 152 GB
+Format: NTFS
+Label:
+
+Name: D:\       DriveType: Fixed
+Free space: 390 GB
+Format: NTFS
+Label: hard_out_disk
+*/
