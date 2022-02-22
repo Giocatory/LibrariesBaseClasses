@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncExecution", "MultithreadingAsynchronousParallelism\SyncExecution.csproj", "{2A3B49B4-60B8-4646-BFF3-48076EBBBFCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesInputOutput", "FilesInputOutput\FilesInputOutput.csproj", "{94BE1C34-ECAA-4ED5-9363-29C4359E2A47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilesInputOutput", "FilesInputOutput\FilesInputOutput.csproj", "{94BE1C34-ECAA-4ED5-9363-29C4359E2A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialize", "Serialize\Serialize.csproj", "{0823DB06-91F7-4698-8792-2AB6F67246F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{94BE1C34-ECAA-4ED5-9363-29C4359E2A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94BE1C34-ECAA-4ED5-9363-29C4359E2A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94BE1C34-ECAA-4ED5-9363-29C4359E2A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0823DB06-91F7-4698-8792-2AB6F67246F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0823DB06-91F7-4698-8792-2AB6F67246F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0823DB06-91F7-4698-8792-2AB6F67246F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0823DB06-91F7-4698-8792-2AB6F67246F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
