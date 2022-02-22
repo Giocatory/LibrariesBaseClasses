@@ -27,3 +27,31 @@ Free space: 390 GB
 Format: NTFS
 Label: hard_out_disk
 */
+
+//  Create and write file
+using (StreamWriter writer = File.CreateText("D:/localhost/Giocatory/LibrariesBaseClasses/FilesInputOutput/files/Test.txt"))
+{
+    writer.WriteLine("Hello");
+    writer.WriteLine("Mikhail");
+    writer.WriteLine("Like You!");
+}
+// Read file
+using (StreamReader reader = File.OpenText("D:/localhost/Giocatory/LibrariesBaseClasses/FilesInputOutput/files/Test.txt"))
+{
+    string? line = null;
+    while ((line = reader.ReadLine()) != null)
+    {
+        Console.WriteLine(line);
+    }
+}
+using (StreamReader reader = new("D:/localhost/Giocatory/LibrariesBaseClasses/FilesInputOutput/files/Test.txt"))
+{
+    string? line = null;
+    while ((line = reader.ReadLine()) != null)
+    {
+        if (line.StartsWith("L"))
+        {
+            Console.WriteLine(line);
+        }
+    }
+}
