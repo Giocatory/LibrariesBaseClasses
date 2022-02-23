@@ -66,7 +66,7 @@ Server =.\SQLEXPRESS01; Database = MyExperiment; Trusted_Connection = True;
 Подключение открыто
 Свойства подключения:
         Строка подключения: Server =.\SQLEXPRESS01; Database = MyExperiment; Trusted_Connection = True;
-        База данных: master
+        База данных: MyExperiment
         Сервер: .\SQLEXPRESS01
         Версия сервера: 15.00.2000
         Состояние: Open
