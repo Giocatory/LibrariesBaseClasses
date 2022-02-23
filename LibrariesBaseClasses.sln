@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilesInputOutput", "FilesIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialize", "Serialize\Serialize.csproj", "{0823DB06-91F7-4698-8792-2AB6F67246F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConnectionFactory", "MyConnectionFactory\MyConnectionFactory.csproj", "{6933D6B9-56C0-4D6F-AD04-145F4799C1CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyConnectionFactory", "MyConnectionFactory\MyConnectionFactory.csproj", "{6933D6B9-56C0-4D6F-AD04-145F4799C1CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForExperiments", "ForExperiments\ForExperiments.csproj", "{3AEA85CB-1554-4F3C-ABF1-F20C5E3BB87F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6933D6B9-56C0-4D6F-AD04-145F4799C1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6933D6B9-56C0-4D6F-AD04-145F4799C1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6933D6B9-56C0-4D6F-AD04-145F4799C1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEA85CB-1554-4F3C-ABF1-F20C5E3BB87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEA85CB-1554-4F3C-ABF1-F20C5E3BB87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEA85CB-1554-4F3C-ABF1-F20C5E3BB87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEA85CB-1554-4F3C-ABF1-F20C5E3BB87F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
