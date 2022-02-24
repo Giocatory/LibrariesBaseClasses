@@ -2,11 +2,11 @@
 {
     internal class MyDirectoryInfo
     {
-
         public MyDirectoryInfo(string path)
         {
             Path = path;
         }
+
         public static string Path { get; set; } = ".";
 
         // Привязать к текущему каталогу (DirectoryInfo df = new("."))

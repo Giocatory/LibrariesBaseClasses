@@ -1,5 +1,4 @@
-﻿using Microsoft.IdentityModel.Protocols;
-using System.Configuration;
+﻿using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -18,7 +17,6 @@ else
 IDbConnection myConnection = GetConnection(dataProvider);
 Console.WriteLine($"Connection type: {myConnection.GetType().Name ?? "unrecognized type"}"); // SqlConnection
 
-
 static IDbConnection GetConnection(DataProvider dataProvider)
 {
     IDbConnection? connection;
@@ -27,6 +25,7 @@ static IDbConnection GetConnection(DataProvider dataProvider)
         case DataProvider.SqlServer:
             connection = new SqlConnection();
             break;
+
         default:
             connection = null;
             break;
@@ -34,7 +33,7 @@ static IDbConnection GetConnection(DataProvider dataProvider)
     return connection;
 }
 
-enum DataProvider
+internal enum DataProvider
 {
     SqlServer,
     None

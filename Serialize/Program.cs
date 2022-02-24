@@ -6,7 +6,7 @@ userData.WindowColor = "Yellow";
 userData.FontSize = 50;
 
 // BinaryFormatter сохраняет данные в двоичном формате.
-// Чтобы получить доступ к BinaryFormatter, необходимо импортировать 
+// Чтобы получить доступ к BinaryFormatter, необходимо импортировать
 // пространство имен System.Runtime.Serialization.Formatters.Binary
 BinaryFormatter binFormat = new();
 // Сохранить объект в локальном файле.

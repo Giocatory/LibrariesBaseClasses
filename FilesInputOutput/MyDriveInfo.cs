@@ -3,10 +3,12 @@
     internal class MyDriveInfo
     {
         private DriveInfo[] driveInfo;
+
         public MyDriveInfo()
         {
             driveInfo = DriveInfo.GetDrives();
         }
+
         public void ShowInfo()
         {
             foreach (var drive in driveInfo)

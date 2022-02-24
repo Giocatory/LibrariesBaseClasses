@@ -1,6 +1,7 @@
 ﻿namespace MultithreadingAsynchronousParallelism
 {
     public delegate int BinaryOp(int x, int y);
+
     internal class SyncExe
     {
         public void ShowWork()
@@ -17,7 +18,8 @@
             Console.WriteLine("Doing more work in Main()");
             Console.WriteLine($"10 + 10 = {answer}");
         }
-        static int Add(int x, int y)
+
+        private static int Add(int x, int y)
         {
             Console.WriteLine($"Add() invoked on thread {Thread.CurrentThread.ManagedThreadId}.");
             Thread.Sleep(5000);
